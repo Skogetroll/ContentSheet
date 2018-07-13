@@ -533,7 +533,7 @@ extension ContentSheet {
                 
                 UIView.animate(withDuration: duration,
                                delay: 0.0,
-                               usingSpringWithDamping: 0.75,
+                               usingSpringWithDamping: 0.95,
                                initialSpringVelocity: 0.8,
                                options: [.allowUserInteraction],
                                animations: {

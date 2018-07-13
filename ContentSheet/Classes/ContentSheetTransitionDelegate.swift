@@ -64,7 +64,7 @@ public class ContentSheetAnimator: NSObject, UIViewControllerAnimatedTransitioni
                 
                 UIView.animate(withDuration: self.duration,
                                delay: 0.0,
-                               usingSpringWithDamping: 0.75,
+                               usingSpringWithDamping: 0.95,
                                initialSpringVelocity: 0.8,
                                options: [.allowUserInteraction],
                                animations: {
@@ -83,7 +83,7 @@ public class ContentSheetAnimator: NSObject, UIViewControllerAnimatedTransitioni
                 
                 UIView.animate(withDuration: self.duration,
                                delay: 0.0,
-                               usingSpringWithDamping: 0.75,
+                               usingSpringWithDamping: 0.95,
                                initialSpringVelocity: 0.8,
                                options: [.allowUserInteraction],
                                animations: {
